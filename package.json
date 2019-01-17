@@ -14,9 +14,7 @@
   ],
   "homepage": "https://gitlab.com/pascalpepe/bootstrap-project-template#readme",
   "author": "Pascal Pepe",
-  "scripts": {
-    "test": "test"
-  },
+  "scripts": {},
   "style": "dist/css/theme.css",
   "sass": "scss/theme.scss",
   "repository": {
@@ -30,6 +28,7 @@
   "dependencies": {},
   "devDependencies": {
     "bootstrap": "^4.2.1",
+    "node-sass": "^4.11.0",
     "npm-run-all": "^4.1.5"
   },
   "peerDependencies": {
