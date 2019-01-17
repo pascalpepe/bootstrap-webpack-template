@@ -36,7 +36,7 @@ as the default theme. This includes:
 Installation
 ============
 
-1. `Install Node.js <https://nodejs.org/en/download/package-manager/>`_
+1. `Install Node.js <https://nodejs.org/en/download/package-manager/>`_.
 2. Fork this repository.
 3. Get the source code::
 
@@ -66,3 +66,6 @@ License
 
 This project is licensed under the
 `MIT License <https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/LICENSE>`_.
+
+Bootstrap is licensed under the
+`MIT License <https://github.com/twbs/bootstrap/blob/master/LICENSE>`_.
