@@ -61,6 +61,12 @@ The following scripts are available:
 * ``npm run css-watch`` - Watch changes in SCSS files and automatically run the
   ``css`` script if needed.
 
+Changelog
+=========
+
+All changes in this repository are logged in the file
+`CHANGELOG.rst <https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/CHANGELOG.rst>`_.
+
 License
 =======
 
