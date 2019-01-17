@@ -17,6 +17,8 @@
   "scripts": {
     "css-compile": "npm-run-all --parallel css-compile-*",
     "css-compile-main": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss dist/css/main.css",
+    "css-lint": "npm-run-all --parallel css-lint-*",
+    "css-lint-main": "stylelint \"scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache",
     "css-minify": "npm-run-all --parallel css-minify-*",
     "css-minify-main": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/main.min.css dist/css/main.css"
   },
@@ -35,7 +37,9 @@
     "bootstrap": "^4.2.1",
     "clean-css-cli": "^4.2.1",
     "node-sass": "^4.11.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "stylelint": "^9.10.0",
+    "stylelint-config-twbs-bootstrap": "^0.2.1"
   },
   "peerDependencies": {
     "jquery": "1.9.1 - 3",
