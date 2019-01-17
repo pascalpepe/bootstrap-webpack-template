@@ -31,7 +31,7 @@ as the default theme. This includes:
 * Source map outputs.
 * CSS post-processing with **postcss** and **autoprefixer** in order to insure
   the same browser compatibility as Bootstrap's default theme.
-* Minification of CSS and map files with **cleancss**
+* Minification of CSS and map files with **cleancss**.
 
 Installation
 ============
@@ -52,14 +52,11 @@ Scripts
 
 The following scripts are available:
 
-* ``npm run css`` - Check code style, compile, prefix and minify all themes.
-* ``npm run css-main`` - Check code style, compile, prefix and minify the main theme.
-* ``npm run css-compile`` - Compile SCSS files of all themes.
-* ``npm run css-compile-main`` - Compile SCSS files of the main theme.
+* ``npm run css`` - Check code style, compile, prefix and minify.
+* ``npm run css-compile`` - Compile SCSS files.
 * ``npm run css-lint`` - Check code style of all SCSS files.
-* ``npm run css-minify`` - Minify CSS files of all themes.
-* ``npm run css-minify-main`` - Minify CSS files of the main theme.
-* ``npm run css-prefix`` - Run PostCSS for all CSS files.
+* ``npm run css-minify`` - Minify CSS files.
+* ``npm run css-prefix`` - Post-process CSS files.
 
 License
 =======
