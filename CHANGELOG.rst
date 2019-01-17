@@ -8,8 +8,8 @@ Latest
 Initial dependencies
 --------------------
 
-* Node.js: >= 6.0.0
-* Bootstrap: 4.2
+* Node.js >= 6
+* Bootstrap 4.2
 
 Initial features
 ----------------
