@@ -14,7 +14,10 @@
   ],
   "homepage": "https://gitlab.com/pascalpepe/bootstrap-project-template#readme",
   "author": "Pascal Pepe",
-  "scripts": {},
+  "scripts": {
+    "css-compile": "npm-run-all --parallel css-compile-*",
+    "css-compile-main": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss dist/css/main.css"
+  },
   "style": "dist/css/theme.css",
   "sass": "scss/theme.scss",
   "repository": {
