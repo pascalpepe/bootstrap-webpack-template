@@ -11,6 +11,7 @@ The following scripts are available:
 
 * `npm run css-compile` - Compile SCSS files of all themes.
 * `npm run css-compile-main` - Compile SCSS files of the main theme.
+* `npm run css-lint` - Check code style of all SCSS files.
 * `npm run css-minify` - Minify CSS files of all themes.
 * `npm run css-minify-main` - Minify CSS files of the main theme.
 
