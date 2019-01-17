@@ -19,7 +19,8 @@
     "css-compile-main": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss dist/css/main.css",
     "css-lint": "stylelint \"scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache",
     "css-minify": "npm-run-all --parallel css-minify-*",
-    "css-minify-main": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/main.min.css dist/css/main.css"
+    "css-minify-main": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/main.min.css dist/css/main.css",
+    "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\""
   },
   "style": "dist/css/theme.css",
   "sass": "scss/theme.scss",

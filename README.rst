@@ -14,6 +14,7 @@ The following scripts are available:
 * `npm run css-lint` - Check code style of all SCSS files.
 * `npm run css-minify` - Minify CSS files of all themes.
 * `npm run css-minify-main` - Minify CSS files of the main theme.
+* `npm run css-prefix` - Run PostCSS for all CSS files.
 
 License
 =======
