@@ -15,6 +15,8 @@
   "homepage": "https://gitlab.com/pascalpepe/bootstrap-project-template#readme",
   "author": "Pascal Pepe",
   "scripts": {
+    "css": "npm-run-all css-lint css-compile css-prefix css-minify",
+    "css-main": "npm-run-all css-lint css-compile-main css-prefix css-minify-main",
     "css-compile": "npm-run-all --parallel css-compile-*",
     "css-compile-main": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss dist/css/main.css",
     "css-lint": "stylelint \"scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache",
