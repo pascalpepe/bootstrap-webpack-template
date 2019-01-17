@@ -9,8 +9,10 @@ Scripts
 
 The following scripts are available:
 
-* `npm run css-compile` - Run all `css-compile-*` scripts.
+* `npm run css-compile` - Compile SCSS files of all themes.
 * `npm run css-compile-main` - Compile SCSS files of the main theme.
+* `npm run css-minify` - Minify CSS files of all themes.
+* `npm run css-minify-main` - Minify CSS files of the main theme.
 
 License
 =======
