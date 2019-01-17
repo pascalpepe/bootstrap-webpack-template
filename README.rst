@@ -4,6 +4,21 @@ Bootstrap project template
 
 Project template for a quick start with Bootstrap framework.
 
+Status
+======
+
+.. image:: https://img.shields.io/node/v/bootstrap.svg
+    :target: https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/package.json
+    :alt: node
+
+.. image:: https://img.shields.io/badge/bootstrap%20versions-4.2-563d7c.svg
+    :target: https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/package.json
+    :alt: bootstrap versions
+
+.. image:: https://img.shields.io/badge/license-MIT-green.svg
+    :target: https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/LICENSE
+    :alt: license
+
 Scripts
 =======
 
