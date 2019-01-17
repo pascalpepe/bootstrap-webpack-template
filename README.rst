@@ -32,6 +32,8 @@ as the default theme. This includes:
 * CSS post-processing with **postcss** and **autoprefixer** in order to insure
   the same browser compatibility as Bootstrap's default theme.
 * Minification of CSS and map files with **cleancss**.
+* SCSS files monitoring with **nodemon** so as to automatically regenerate the
+  theme if changes happen.
 
 Installation
 ============
@@ -46,7 +48,6 @@ Installation
 
     npm install -D
 
-
 Scripts
 =======
 
@@ -57,6 +58,8 @@ The following scripts are available:
 * ``npm run css-lint`` - Check code style of all SCSS files.
 * ``npm run css-minify`` - Minify CSS files.
 * ``npm run css-prefix`` - Post-process CSS files.
+* ``npm run css-watch`` - Watch changes in SCSS files and automatically run the
+  ``css`` script if needed.
 
 License
 =======
