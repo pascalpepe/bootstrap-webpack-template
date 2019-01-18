@@ -2,8 +2,10 @@
 Changelog
 =========
 
-Latest
-======
+Version 1.0
+===========
+
+2019-01-19
 
 Initial dependencies
 --------------------
