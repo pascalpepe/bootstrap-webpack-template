@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-project-template",
+  "name": "bootstrap-quickstart",
   "version": "1.1.0",
   "private": true,
   "description": "Project template for a quick start with Bootstrap framework.",
@@ -12,7 +12,7 @@
     "responsive",
     "front-end"
   ],
-  "homepage": "https://gitlab.com/pascalpepe/bootstrap-project-template#readme",
+  "homepage": "https://gitlab.com/pascalpepe/bootstrap-quickstart#readme",
   "author": "Pascal Pepe",
   "scripts": {
     "css": "npm-run-all css-lint css-compile css-prefix css-minify",
@@ -26,10 +26,10 @@
   "sass": "scss/theme.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/pascalpepe/bootstrap-project-template.git"
+    "url": "git+https://gitlab.com/pascalpepe/bootstrap-quickstart.git"
   },
   "bugs": {
-    "url": "https://gitlab.com/pascalpepe/bootstrap-project-template/issues"
+    "url": "https://gitlab.com/pascalpepe/bootstrap-quickstart/issues"
   },
   "license": "MIT",
   "dependencies": {},

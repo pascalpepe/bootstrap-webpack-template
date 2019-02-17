@@ -1,6 +1,6 @@
-==========================
-Bootstrap project template
-==========================
+=====================
+Bootstrap Quick Start
+=====================
 
 Project template for a quick start with Bootstrap framework.
 
@@ -8,15 +8,15 @@ Status
 ======
 
 .. image:: https://img.shields.io/badge/bootstrap-4.3-blue.svg
-    :target: https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/package.json
+    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/package.json
     :alt: bootstrap versions
 
 .. image:: https://img.shields.io/badge/node-%3E%3D6-blue.svg
-    :target: https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/package.json
+    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/package.json
     :alt: node
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
-    :target: https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/LICENSE
+    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE
     :alt: license
 
 Features
@@ -41,11 +41,11 @@ Installation
 1. `Install Node.js <https://nodejs.org/en/download/package-manager/>`_.
 2. Get the source code by cloning this repository or your own fork::
 
-    git clone https://gitlab.com/<your_username>/bootstrap-project-template.git
+    git clone https://gitlab.com/<your_username>/bootstrap-quickstart.git
 
 3. Install the dependencies::
 
-    npm install -D
+    npm install
 
 Scripts
 =======
@@ -63,11 +63,11 @@ The following scripts are available:
 Changelog
 =========
 
-All changes in this repository are logged in the file `CHANGELOG.rst <https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/CHANGELOG.rst>`_.
+All changes in this repository are logged in the file `CHANGELOG.rst <https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/CHANGELOG.rst>`_.
 
 License
 =======
 
-This project is licensed under the `MIT License <https://gitlab.com/pascalpepe/bootstrap-project-template/blob/master/LICENSE>`_.
+This project is licensed under the `MIT License <https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE>`_.
 
 This project is built with Bootstrap, which is licensed under the `MIT License <https://github.com/twbs/bootstrap/blob/master/LICENSE>`_.
