@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "css": "npm-run-all css-lint css-compile css-prefix css-minify",
-    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/theme.scss dist/css/theme.css",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss dist/css/main.css",
     "css-lint": "stylelint \"scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache",
-    "css-minify": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/theme.min.css dist/css/theme.css",
+    "css-minify": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output dist/css/main.min.css dist/css/main.css",
     "css-prefix": "postcss --config postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
     "css-watch": "nodemon --watch scss/ --ext scss --exec \"npm run css\""
   },

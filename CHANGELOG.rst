@@ -16,6 +16,8 @@ Latest
   - stylelint_ to 10.1.0
   - stylelint-config-twbs-bootstrap_ to 0.4.0
 
+* Changed SCSS entry file name from ``theme.scss`` to ``main.scss``.
+
 
 Version 1.1
 ===========
