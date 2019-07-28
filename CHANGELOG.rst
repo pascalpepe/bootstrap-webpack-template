@@ -17,6 +17,8 @@ Latest
   - stylelint-config-twbs-bootstrap_ to 0.4.0
 
 * Changed SCSS entry file name from ``theme.scss`` to ``main.scss``.
+* Added ``include-path node_modules/`` option to node-sass command line. This
+  allows more concise imports of Bootstrap sources in our SCSS files.
 
 
 Version 1.1
