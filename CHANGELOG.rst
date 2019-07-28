@@ -2,6 +2,22 @@
 Changelog
 =========
 
+Latest
+======
+
+* Added **jQuery** and **Popper.js** to the dependencies.
+* Upgraded the following development dependencies:
+
+  - **autoprefixer** to 9.6.1
+  - **clean-css-cli* to 4.3.0
+  - **node-sass** to 4.12.0
+  - **nodemon** to 1.19.1
+  - **postcss-cli** to 6.1.3
+  - **stylelint** to 10.1.0
+  - **stylelint-config-twbs-bootstrap** to 0.4.0
+
+----
+
 Version 1.1
 ===========
 
@@ -10,10 +26,10 @@ Version 1.1
 * Upgraded Bootstrap to version 4.3.1.
 * Upgraded the following development dependencies:
 
-  - **autoprefixer** to version 9.4.7
-  - **nodemon** to version 1.18.10"
-  - **stylelint** to version 9.10.1"
-  - **stylelint-config-twbs-bootstrap** to version 0.3.0
+  - **autoprefixer** to 9.4.7
+  - **nodemon** to 1.18.10
+  - **stylelint** to 9.10.1
+  - **stylelint-config-twbs-bootstrap** to 0.3.0
 
 * Moved PostCSS config file from the ``build/`` directory to the repository
   root.
@@ -37,7 +53,8 @@ Initial dependencies
 Initial features
 ----------------
 
-* Code style checks with **stylelint** that follow Boostrap's own configuration.
+* Code style checks with **stylelint** that follow Boostrap's own
+  configuration.
 * SCSS compilation with **node-sass**.
 * Source map outputs.
 * CSS post-processing with **postcss** and **autoprefixer** in order to insure
