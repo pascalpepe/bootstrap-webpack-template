@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-quickstart",
-  "version": "2.0.0",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "css": "npm-run-all css-lint css-compile css-prefix css-minify",

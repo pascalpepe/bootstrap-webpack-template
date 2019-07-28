@@ -2,8 +2,8 @@
 Changelog
 =========
 
-Latest
-======
+1.2 (2019-07-28)
+================
 
 * Added jQuery_ and Popper.js_ to the dependencies.
 * Upgraded the following development dependencies:
@@ -22,10 +22,8 @@ Latest
 * Cleaned up the PostCSS config file.
 
 
-Version 1.1
-===========
-
-2019-02-17
+1.1 (2019-02-17)
+================
 
 * Upgraded Bootstrap_ to version 4.3.1.
 * Upgraded the following development dependencies:
@@ -42,10 +40,8 @@ Version 1.1
   `Bootstrap issue #27900 <https://github.com/twbs/bootstrap/pull/27900>`_).
 
 
-Version 1.0
-===========
-
-2019-01-19
+1.0 (2019-01-19)
+================
 
 Initial dependencies
 --------------------
