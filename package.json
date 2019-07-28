@@ -2,18 +2,6 @@
   "name": "bootstrap-quickstart",
   "version": "2.0.0",
   "private": true,
-  "description": "Project template for a quick start with Bootstrap framework.",
-  "keywords": [
-    "web",
-    "bootstrap",
-    "css",
-    "sass",
-    "mobile-first",
-    "responsive",
-    "front-end"
-  ],
-  "homepage": "https://gitlab.com/pascalpepe/bootstrap-quickstart#readme",
-  "author": "Pascal Pepe",
   "scripts": {
     "css": "npm-run-all css-lint css-compile css-prefix css-minify",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/theme.scss dist/css/theme.css",
@@ -22,16 +10,6 @@
     "css-prefix": "postcss --config postcss.config.js --replace \"dist/css/*.css\" \"!dist/css/*.min.css\"",
     "css-watch": "nodemon --watch scss/ --ext scss --exec \"npm run css\""
   },
-  "style": "dist/css/theme.css",
-  "sass": "scss/theme.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/pascalpepe/bootstrap-quickstart.git"
-  },
-  "bugs": {
-    "url": "https://gitlab.com/pascalpepe/bootstrap-quickstart/issues"
-  },
-  "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
@@ -49,9 +27,5 @@
   },
   "engines": {
     "node": ">=6"
-  },
-  "files": [
-    "dist/css/*.{css,map}",
-    "scss/**/*.scss"
-  ]
+  }
 }
