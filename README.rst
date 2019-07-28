@@ -2,7 +2,7 @@
 Bootstrap Quick Start
 =====================
 
-Project template for a quick start with Bootstrap framework.
+Project template for a quick start with Bootstrap_ framework.
 
 Status
 ======
@@ -22,18 +22,20 @@ Status
 Features
 ========
 
-This repository provides a development environment for creating Bootstrap
-themes and generating CSS files with the same coding style and post-processing
-as the default theme. This includes:
+This repository provides a development environment for creating Bootstrap_
+themes.
 
-* Code style checks with **stylelint** that follow Boostrap's own configuration.
-* SCSS compilation with **node-sass**.
-* Source map outputs.
-* CSS post-processing with **postcss** and **autoprefixer** in order to insure
-  the same browser compatibility as Bootstrap's default theme.
-* Minification of CSS and map files with **cleancss**.
-* SCSS files monitoring with **nodemon** so as to automatically regenerate the
-  theme if changes happen.
+* Generate CSS files with the same coding style and post-processing as the
+  default pre-compiled distribution. This includes:
+
+  - Code style checks with stylelint_ that follow Bootstrap's own
+    configuration.
+  - SCSS compilation with node-sass_.
+  - CSS vendor prefixing with PostCSS_ and Autoprefixer_.
+  - CSS optimization with clean-css_.
+  - Source map outputs.
+  - SCSS files monitoring with nodemon_ so as to automatically regenerate the
+    theme when file changes are detected.
 
 Installation
 ============
@@ -57,8 +59,8 @@ The following scripts are available:
 * ``npm run css-lint`` - Check code style of all SCSS files.
 * ``npm run css-minify`` - Minify CSS files.
 * ``npm run css-prefix`` - Post-process CSS files.
-* ``npm run css-watch`` - Watch changes in SCSS files and automatically run the
-  ``css`` script if needed.
+* ``npm run css-watch`` - Automatically run the ``css`` script when SCSS file
+  changes are detected.
 
 Changelog
 =========
@@ -71,3 +73,13 @@ License
 This project is licensed under the `MIT License <https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE>`_.
 
 This project is built with Bootstrap, which is licensed under the `MIT License <https://github.com/twbs/bootstrap/blob/master/LICENSE>`_.
+
+.. _Autoprefixer: https://github.com/postcss/autoprefixer
+.. _Bootstrap: https://getbootstrap.com
+.. _clean-css: https://github.com/jakubpawlowicz/clean-css
+.. _jQuery: https://jquery.com
+.. _node-sass: https://github.com/sass/node-sass
+.. _nodemon: https://nodemon.io/
+.. _Popper.js: https://popper.js.org
+.. _PostCSS: https://postcss.org
+.. _stylelint: https://stylelint.io
