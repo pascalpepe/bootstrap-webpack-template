@@ -45,7 +45,7 @@ Version 1.0
 Initial dependencies
 --------------------
 
-* `Node.js`_ >= 6
+* Node.js_ >= 6
 * Bootstrap_ 4.2
 
 Initial features
@@ -80,7 +80,7 @@ Initial scripts
 .. _clean-css: https://www.npmjs.com/package/clean-css
 .. _clean-css-cli: https://www.npmjs.com/package/clean-css-cli
 .. _jQuery: https://www.npmjs.com/package/jquery
-.. _`Node.js`: https://nodejs.org
+.. _Node.js: https://nodejs.org
 .. _node-sass: https://www.npmjs.com/package/node-sass
 .. _nodemon: https://www.npmjs.com/package/nodemon
 .. _npm-run-all: https://www.npmjs.com/package/npm-run-all
