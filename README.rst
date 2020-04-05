@@ -1,23 +1,20 @@
-=====================
-Bootstrap Quick Start
-=====================
+==========================
+Quick Start with Bootstrap
+==========================
 
-Project template for a quick start with Bootstrap_ framework.
+.. image:: https://img.shields.io/badge/bootstrap-4.4-blue.svg
+   :alt: Bootstrap 4.4
+   :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/package.json
 
-Status
-======
+.. image:: https://img.shields.io/badge/license-MIT-green.svg
+   :alt: MIT License
+   :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE
 
-.. image:: https://img.shields.io/badge/bootstrap-4.3-blue.svg
-    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/package.json
-    :alt: bootstrap versions
+Project template for a quick start with Bootstrap framework.
 
-.. image:: https://img.shields.io/badge/node-%3E%3D6-blue.svg
-    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/package.json
-    :alt: node
+:Source code: https://gitlab.com/pascalpepe/bootstrap-quickstart
+:Issue tracker: https://gitlab.com/pascalpepe/bootstrap-quickstart/issues
 
-.. image:: https://img.shields.io/badge/license-MIT-blue.svg
-    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE
-    :alt: license
 
 Features
 ========
@@ -37,8 +34,9 @@ themes.
   - SCSS files monitoring with nodemon_ so as to automatically regenerate the
     theme when file changes are detected.
 
-Installation
-============
+
+Quick usage guide
+=================
 
 1. `Install Node.js <https://nodejs.org/en/download/package-manager/>`_.
 2. Get the source code by cloning this repository or your own fork::
@@ -49,23 +47,23 @@ Installation
 
     npm install
 
+
 Scripts
 =======
 
 The following scripts are available:
 
-* ``npm run css`` - Check code style, compile, prefix and minify.
-* ``npm run css-compile`` - Compile SCSS files.
-* ``npm run css-lint`` - Check code style of all SCSS files.
-* ``npm run css-minify`` - Minify CSS files.
-* ``npm run css-prefix`` - Post-process CSS files.
-* ``npm run css-watch`` - Automatically run the ``css`` script when SCSS file
-  changes are detected.
+* ``watch:dev`` -
+* ``watch`` -
+* ``build:dev`` -
+* ``build`` -
+
 
 Changelog
 =========
 
 All changes in this repository are logged in the file `CHANGELOG.rst <https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/CHANGELOG.rst>`_.
+
 
 License
 =======
