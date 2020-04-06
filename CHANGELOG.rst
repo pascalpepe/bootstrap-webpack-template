@@ -28,22 +28,22 @@ Latest
 
   - webpack: 4.42.1
   - webpack-cli: 3.3.11
-  - css-loader": 3.4.2
+  - css-loader: 3.4.2
   - postcss-loader: 3.0.0
   - sass-loader: 8.0.2
   - mini-css-extract-plugin: 0.9.0
   - optimize-css-assets-webpack-plugin: 5.0.3
   - stylelint-webpack-plugin: 1.2.3
-  - terser-webpack-plugin": 2.3.5
+  - terser-webpack-plugin: 2.3.5
 
 * Removed npm scripts:
 
-  ``css``
-  ``css-compile``
-  ``css-lint``
-  ``css-minify``
-  ``css-prefix``
-  ``css-watch``
+  - ``css``
+  - ``css-compile``
+  - ``css-lint``
+  - ``css-minify``
+  - ``css-prefix``
+  - ``css-watch``
 
 * Added npm scripts:
 
@@ -51,8 +51,7 @@ Latest
   - ``build:dev`` - Build the project in development mode.
   - ``watch`` - Watch all files for changes and automatically run the
     development build when needed.
-  - ``watch:dev`` - Watch all files for changes and automatically run the
-    development build when needed.
+  - ``watch:dev`` - Same as ``watch``, but in development mode.
 
 * Added webpack configuration: ``webpack.config.js``
 * Added style source directory ``src/scss/`` and moved SCSS files into it.
@@ -60,7 +59,7 @@ Latest
 * Added script source directory: ``src/js/``
 * Added entry point: ``src/js/index.js``
 * Added a starter template: ``index.html``
-* Updated README.
+* Updated ``README``.
 * Updated the copyright date in the ``LICENSE`` file.
 * Added the ``NOTICE`` file that lists copyright and header notices of all
   third-party software used in this project.

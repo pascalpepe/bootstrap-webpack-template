@@ -51,8 +51,7 @@ The following npm scripts are available:
 * ``build:dev`` - Build the project in development mode.
 * ``watch`` - Watch all files for changes and automatically run the
   production build when needed.
-* ``watch:dev`` - Watch all files for changes and automatically run the
-  development build when needed.
+* ``watch:dev`` - Same as ``watch``, but in development mode.
 
 
 Configuration
@@ -91,7 +90,7 @@ All Bootstrap's JavaScript plugins depend on jQuery_. Dropdowns, popovers and
 tooltips also depend on Popper_.
 
 By default, jQuery and Popper are not included in the bundle. If you want to
-bundle one or both, remove the appropriate lines in ``webpack.config.js``:
+bundle one or both, remove the appropriate lines in ``webpack.config.js``::
 
     externals: {
       jquery: 'jQuery',
