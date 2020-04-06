@@ -19,7 +19,8 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'dist/js')
     },
     externals: {
-      jquery: 'jQuery'
+      jquery: 'jQuery',
+      'popper.js': 'Popper'
     },
     module: {
       rules: [
