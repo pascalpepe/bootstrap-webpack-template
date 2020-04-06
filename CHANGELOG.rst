@@ -36,7 +36,7 @@ Latest
   - stylelint-webpack-plugin: 1.2.3
   - terser-webpack-plugin": 2.3.5
 
-* Removed all npm scripts:
+* Removed npm scripts:
 
   ``css``
   ``css-compile``
@@ -47,19 +47,22 @@ Latest
 
 * Added npm scripts:
 
-  ``watch:dev`` -
-  ``watch`` -
-  ``build:dev`` -
-  ``build`` -
+  - ``build`` - Build the project in production mode.
+  - ``build:dev`` - Build the project in development mode.
+  - ``watch`` - Watch all files for changes and automatically run the
+    development build when needed.
+  - ``watch:dev`` - Watch all files for changes and automatically run the
+    development build when needed.
 
 * Added webpack configuration: ``webpack.config.js``
-* Added style source directory: ``src/scss/``
-* Moved SCSS source files to ``src/scss/``.
+* Added style source directory ``src/scss/`` and moved SCSS files into it.
 * Added a file for custom SCSS variables: ``src/scss/_variables.scss``
 * Added script source directory: ``src/js/``
-* Added entry file: ``src/js/index.js``
+* Added entry point: ``src/js/index.js``
+* Added a starter template: ``index.html``
+* Updated README.
 * Updated the copyright date in the ``LICENSE`` file.
-* Added the ``NOTICE`` file that list copyright and header notices of all
+* Added the ``NOTICE`` file that lists copyright and header notices of all
   third-party software used in this project.
 
 
