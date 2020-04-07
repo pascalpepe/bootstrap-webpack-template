@@ -10,7 +10,7 @@ Quick Start with Bootstrap
    :alt: MIT License
    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE
 
-Project template for a quick start with Bootstrap_ framework.
+Project template for a quick start with the Bootstrap_ framework.
 
 :Source code: https://gitlab.com/pascalpepe/bootstrap-quickstart
 :Issue tracker: https://gitlab.com/pascalpepe/bootstrap-quickstart/issues
@@ -109,7 +109,8 @@ License
 
 This project is licensed under the `MIT License`_.
 
-This project bundles open source software, as detailed in the `NOTICE`_ file.
+This project redistributes third-party open source software. See the `NOTICE`_
+file for more information.
 
 
 .. _Autoprefixer: https://github.com/postcss/autoprefixer
