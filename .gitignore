@@ -1,8 +1,15 @@
-# Node.js
+# Distribution
+dist/
+
+# Dependencies
 node_modules/
 
-# Non-minimized CSS and JS
-dist/css/
-!dist/css/*.min.css
-dist/js/
-!dist/js/*.min.js
+# Text editor / IDE settings
+*.sublime-*
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+[Dd]esktop.ini
+Thumbs.db
