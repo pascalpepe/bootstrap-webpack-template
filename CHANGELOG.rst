@@ -2,6 +2,28 @@
 Changelog
 =========
 
+Latest
+======
+
+* Updated dependencies:
+
+  - Bootstrap: 4.5.0
+  - jQuery: 3.5.1
+
+* Updated development dependencies:
+
+  - autoprefixer: 9.8.0
+  - css-loader: 3.6.0
+  - node-sass: 4.14.1
+  - stylelint: 13.6.1
+  - stylelint-config-twbs-bootstrap: 2.0.3
+  - stylelint-webpack-plugin: 2.1.0
+  - terser-webpack-plugin: 3.0.5
+  - webpack: 4.43.0
+
+* Removed and ignored distribution files.
+
+
 2.0 (2020-04-06)
 ================
 
