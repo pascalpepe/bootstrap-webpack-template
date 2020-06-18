@@ -2,15 +2,15 @@
 Quick Start with Bootstrap
 ==========================
 
-.. image:: https://img.shields.io/badge/bootstrap-4.4-563d7c.svg
-   :alt: Bootstrap 4.4
+.. image:: https://img.shields.io/badge/bootstrap-4.5-563d7c.svg
+   :alt: Bootstrap 4.5
    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/package.json
 
 .. image:: https://img.shields.io/badge/license-MIT-green.svg
    :alt: MIT License
    :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE
 
-Project template for a quick start with the Bootstrap_ framework.
+Project template for a quick start with Bootstrap_ 4.5.
 
 :Source code: https://gitlab.com/pascalpepe/bootstrap-quickstart
 :Issue tracker: https://gitlab.com/pascalpepe/bootstrap-quickstart/issues
@@ -109,8 +109,8 @@ License
 
 This project is licensed under the `MIT License`_.
 
-This project redistributes third-party open source software. See the `NOTICE`_
-file for more information.
+This project redistributes open source software. See the `NOTICE`_ file for
+more information.
 
 
 .. _Autoprefixer: https://github.com/postcss/autoprefixer

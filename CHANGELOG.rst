@@ -22,6 +22,7 @@ Latest
   - webpack: 4.43.0
 
 * Removed and ignored distribution files.
+* Updated ``README``, ``NOTICE`` and ``LICENSE`` files.
 
 
 2.0 (2020-04-06)
