@@ -49,27 +49,24 @@ The following npm scripts are available:
 
 ## Configuration
 
-The entry points are `src/js/index.js` for scripts and `src/scss/main.scss`
-for styles. You can select plugins individually in both files.
+The entry points are `src/index.js` for scripts and `src/styles.scss` for
+styles. You can select plugins individually in both files.
 
-The output will be saved in `dist/js/` and `dist/css/`.
+The output will be saved in `dist/`.
 
 CSS files are post-processed with [PostCSS](https://postcss.org) and [Autoprefixer](https://github.com/postcss/autoprefixer),
 and linted with [stylelint](https://stylelint.io).
 
 ### Modes
 
-The build can be run in two modes for different optimizations: development or
-production. You can refer to [webpack's documentation](https://webpack.js.org/configuration/mode/)
-for a detailed comparison. A quick summary:
+The build can be run in two modes for different optimizations. A quick summary:
 
-* In development mode:
-  * The output is not minimized.
-  * Source maps are generated to help with debugging.
-* In production mode:
-  * The output is optimized, either with [terser](https://terser.org/) for
-    scripts or with [cssnano](https://cssnano.co/) for styles.
-  * Source maps are not generated.
+* In development mode: the output is not minimized.
+* In production mode: the output is optimized, either with [terser](https://terser.org/)
+  for scripts or with [cssnano](https://cssnano.co/) for styles.
+
+Please refer to [webpack's documentation](https://webpack.js.org/configuration/mode/)
+for a detailed comparison.
 
 ### jQuery and Popper
 
