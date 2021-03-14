@@ -1,6 +1,6 @@
 # Changelog
 
-## Latest
+## 2.2 (2021-03-14)
 
 * Renamed the default branch as `main`.
 * Updated dependencies:
@@ -23,11 +23,16 @@
   * optimize-css-assets-webpack-plugin
 * Added development dependencies:
   * css-minimizer-webpack-plugin: 1.2.0
+* Renamed npm scripts:
+  * `build` as `build:prod`
+  * `build:dev` as `build`
+  * `watch` as `watch:prod`
+  * `watch:dev` as `watch`
 * Added `.stylelintignore`.
 * Moved entry point: from `src/js/index.js` to `src/index.js`.
 * Moved styles entry point: from `src/scss/main.scss` to `src/styles.scss`.
 * Moved styles: from `src/scss/` to `src/styles/`.
-* Updated npm scripts `build` and `watch` to explicitly set mode to
+* Updated npm scripts `build:prod` and `watch:prod` to explicitly set mode to
   `production`.
 * Refactored `webpack.config.js` to rely more on webpack default configuration.
 * Updated `index.html` to import `dist/main.css` and `dist/main.js`, in
