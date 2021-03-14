@@ -5,6 +5,7 @@ Changelog
 Latest
 ======
 
+* Renamed the default branch as ``main``.
 * Updated ``README``, ``NOTICE`` and ``LICENSE`` files.
 
 
