@@ -3,23 +3,14 @@
 [![Bootstrap 4.6](https://img.shields.io/badge/bootstrap-4.6-563d7c.svg)](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/package.json)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/LICENSE)
 
-Project template for a quick start with [Bootstrap](https://getbootstrap.com) 4.6.
-
-* Source code: https://github.com/pascalpepe/bootstrap-quickstart
-* Issue tracker: https://github.com/pascalpepe/bootstrap-quickstart/issues
-
-## Overview
-
-This repository provides a development environment for creating [Bootstrap](https://getbootstrap.com)
-projects. It relies on [webpack](https://webpack.js.org/) and lets you select
-plugins individually in `src/js/index.js` and `src/scss/main.scss`. The minimal
-template `index.html` is provided to quickly start experimenting with your
-build.
+This repository provides a development environment for quickly creating website
+mockups with [Bootstrap](https://getbootstrap.com). It relies on [webpack](https://webpack.js.org/)
+and lets you select components individually in order to customize your build.
 
 ## Quick usage guide
 
 1. [Install Node.js](https://nodejs.org/en/download/package-manager/).
-2. Get the source code by cloning this repository or your own fork:
+2. Get the source code by cloning this repository (or your own fork):
 
    ```text
    git clone https://github.com/pascalpepe/bootstrap-quickstart.git
@@ -37,20 +28,22 @@ build.
    npm run build
    ```
 
+5. Open `index.html` in your favorite browser to view a minimal page.
+6. Start adding your own scripts and styles in `src/`.
+
 ## Scripts
 
 The following npm scripts are available:
 
-* `build` - Build the project in production mode.
-* `build:dev` - Build the project in development mode.
-* `watch` - Watch all files for changes and automatically run the production
-  build when needed.
-* `watch:dev` - Same as `watch`, but in development mode.
+* `build` - Build the project in development mode.
+* `build:prod` - Build the project in production mode.
+* `watch` - Watch all files for changes and automatically rebuild when needed.
+* `watch:prod` - Same as `watch`, but in production mode.
 
 ## Configuration
 
 The entry points are `src/index.js` for scripts and `src/styles.scss` for
-styles. You can select plugins individually in both files.
+styles. You can select components individually in both files.
 
 The output will be saved in `dist/`.
 
