@@ -1,6 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const StylelintPlugin = require('stylelint-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 
@@ -59,7 +59,7 @@ module.exports = (env, argv) => {
     optimization: {
       minimize: !devMode,
       minimizer: [
-        new OptimizeCSSAssetsPlugin({}),
+        new CssMinimizerPlugin(),
         new TerserPlugin({
           extractComments: false
         })

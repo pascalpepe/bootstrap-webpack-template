@@ -20,6 +20,10 @@
   * terser-webpack-plugin: 5.1.1
   * webpack: 5.25.0
   * webpack-cli: 4.5.0
+* Removed development dependencies:
+  * optimize-css-assets-webpack-plugin
+* Added development dependencies:
+  * css-minimizer-webpack-plugin: 1.2.0
 * Added `.stylelintignore`.
 * Updated `README`, `NOTICE` and `LICENSE` files.
 
