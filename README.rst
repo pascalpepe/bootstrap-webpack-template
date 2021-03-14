@@ -4,16 +4,16 @@ Quick Start with Bootstrap
 
 .. image:: https://img.shields.io/badge/bootstrap-4.5-563d7c.svg
    :alt: Bootstrap 4.5
-   :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/package.json
+   :target: https://github.com/pascalpepe/bootstrap-quickstart/blob/main/package.json
 
 .. image:: https://img.shields.io/badge/license-MIT-green.svg
    :alt: MIT License
-   :target: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE
+   :target: https://github.com/pascalpepe/bootstrap-quickstart/blob/main/LICENSE
 
 Project template for a quick start with Bootstrap_ 4.5.
 
-:Source code: https://gitlab.com/pascalpepe/bootstrap-quickstart
-:Issue tracker: https://gitlab.com/pascalpepe/bootstrap-quickstart/issues
+:Source code: https://github.com/pascalpepe/bootstrap-quickstart
+:Issue tracker: https://github.com/pascalpepe/bootstrap-quickstart/issues
 
 
 Overview
@@ -31,7 +31,7 @@ Quick usage guide
 1. `Install Node.js <https://nodejs.org/en/download/package-manager/>`_.
 2. Get the source code by cloning this repository or your own fork::
 
-    git clone https://gitlab.com/pascalpepe/bootstrap-quickstart.git
+    git clone https://github.com/pascalpepe/bootstrap-quickstart.git
 
 3. Install the dependencies::
 
@@ -123,6 +123,6 @@ more information.
 .. _terser: https://terser.org/
 .. _webpack: https://webpack.js.org/
 .. _modes: https://webpack.js.org/configuration/mode/
-.. _CHANGELOG.rst: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/CHANGELOG.rst
-.. _`MIT License`: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/LICENSE
-.. _NOTICE: https://gitlab.com/pascalpepe/bootstrap-quickstart/blob/master/NOTICE
+.. _CHANGELOG.rst: https://github.com/pascalpepe/bootstrap-quickstart/blob/main/CHANGELOG.rst
+.. _`MIT License`: https://github.com/pascalpepe/bootstrap-quickstart/blob/main/LICENSE
+.. _NOTICE: https://github.com/pascalpepe/bootstrap-quickstart/blob/main/NOTICE

@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Latest
+======
+
+* Updated ``README``, ``NOTICE`` and ``LICENSE`` files.
+
+
 2.1 (2020-06-18)
 ================
 
