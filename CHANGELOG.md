@@ -11,7 +11,6 @@
   * css-loader: 5.1.2
   * mini-css-extract-plugin: 1.3.9
   * node-sass: 5.0.0
-  * optimize-css-assets-webpack-plugin: 5.0.4
   * postcss-loader: 5.2.0
   * sass-loader: 11.0.1
   * stylelint: 13.12.0
@@ -20,6 +19,10 @@
   * terser-webpack-plugin: 5.1.1
   * webpack: 5.25.0
   * webpack-cli: 4.5.0
+* Removed development dependencies:
+  * optimize-css-assets-webpack-plugin
+* Added development dependencies:
+  * css-minimizer-webpack-plugin: 1.2.0
 * Added `.stylelintignore`.
 * Updated `README`, `NOTICE` and `LICENSE` files.
 
