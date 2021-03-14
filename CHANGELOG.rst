@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Latest
+======
+
+* Renamed the default branch as ``main``.
+* Updated ``README``, ``NOTICE`` and ``LICENSE`` files.
+
+
 2.1 (2020-06-18)
 ================
 
