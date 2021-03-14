@@ -3,6 +3,24 @@
 ## Latest
 
 * Renamed the default branch as `main`.
+* Updated dependencies:
+  * Bootstrap: 4.6.0
+  * jQuery: 3.6.0
+* Updated development dependencies:
+  * autoprefixer: 10.2.5
+  * css-loader: 5.1.2
+  * mini-css-extract-plugin: 1.3.9
+  * node-sass: 5.0.0
+  * optimize-css-assets-webpack-plugin: 5.0.4
+  * postcss-loader: 5.2.0
+  * sass-loader: 11.0.1
+  * stylelint: 13.12.0
+  * stylelint-config-twbs-bootstrap: 2.1.0
+  * stylelint-webpack-plugin: 2.1.1
+  * terser-webpack-plugin: 5.1.1
+  * webpack: 5.25.0
+  * webpack-cli: 4.5.0
+* Added `.stylelintignore`.
 * Updated `README`, `NOTICE` and `LICENSE` files.
 
 ## 2.1 (2020-06-18)

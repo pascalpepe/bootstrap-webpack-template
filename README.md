@@ -1,9 +1,9 @@
 # Quick Start with Bootstrap
 
-[![Bootstrap 4.5](https://img.shields.io/badge/bootstrap-4.5-563d7c.svg)](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/package.json)
+[![Bootstrap 4.6](https://img.shields.io/badge/bootstrap-4.6-563d7c.svg)](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/package.json)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/LICENSE)
 
-Project template for a quick start with [Bootstrap](https://getbootstrap.com) 4.5.
+Project template for a quick start with [Bootstrap](https://getbootstrap.com) 4.6.
 
 * Source code: https://github.com/pascalpepe/bootstrap-quickstart
 * Issue tracker: https://github.com/pascalpepe/bootstrap-quickstart/issues

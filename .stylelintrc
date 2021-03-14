@@ -3,7 +3,14 @@
     "stylelint-config-twbs-bootstrap/scss"
   ],
   "rules": {
-    "property-blacklist": [
+    "declaration-property-value-disallowed-list": {
+      "border": "none",
+      "outline": "none"
+    },
+    "function-disallowed-list": [
+      "calc"
+    ],
+    "property-disallowed-list": [
       "border-radius",
       "border-top-left-radius",
       "border-top-right-radius",
@@ -11,7 +18,6 @@
       "border-bottom-left-radius",
       "transition"
     ],
-    "function-blacklist": ["calc"],
     "scss/dollar-variable-default": null
   }
 }
