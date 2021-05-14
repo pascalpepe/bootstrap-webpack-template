@@ -22,17 +22,7 @@ module.exports = {
             }
           },
           'postcss-loader',
-          {
-            loader: 'sass-loader',
-            options: {
-              sassOptions: {
-                outputStyle: 'expanded',
-                precision: 6,
-                sourceMap: true,
-                sourceMapContents: true
-              }
-            }
-          }
+          'sass-loader'
         ]
       }
     ]
