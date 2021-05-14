@@ -1,6 +1,6 @@
 # Changelog
 
-## Latest
+## 3.0 (2021-05-14)
 
 * Renamed project from "bootstrap-quickstart" to "bootstrap-webpack-template".
 * Updated dependencies:
@@ -27,6 +27,7 @@
   * Renamed `popper.js` as `@popperjs/core` in accordance with the new naming
     for Popper v2.
 * Updated `webpack.config.js` to use Dart Sass instead of Node Sass.
+* Updated `index.html`.
 * Updated `README`, `NOTICE` and `LICENSE` files.
 
 ## 2.2 (2021-03-14)
