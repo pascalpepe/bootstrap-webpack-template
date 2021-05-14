@@ -7,8 +7,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 module.exports = {
   devtool: 'source-map',
   externals: {
-    jquery: 'jQuery',
-    'popper.js': 'Popper'
+    '@popperjs/core': 'Popper'
   },
   module: {
     rules: [

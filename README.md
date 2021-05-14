@@ -1,10 +1,10 @@
-# Quick Start with Bootstrap
+# Bootstrap webpack template
 
-[![Bootstrap 4.6](https://img.shields.io/badge/bootstrap-4.6-563d7c.svg)](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/package.json)
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/LICENSE)
+[![Bootstrap 5.0](https://img.shields.io/badge/bootstrap-5.0-563d7c.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/LICENSE)
 
 This repository provides a development environment for quickly creating website
-mockups with [Bootstrap](https://getbootstrap.com). It relies on [webpack](https://webpack.js.org/)
+mockups with [Bootstrap 5](https://getbootstrap.com). It relies on [webpack](https://webpack.js.org/)
 and lets you select components individually in order to customize your build.
 
 ## Quick usage guide
@@ -13,7 +13,7 @@ and lets you select components individually in order to customize your build.
 2. Get the source code by cloning this repository (or your own fork):
 
    ```text
-   git clone https://github.com/pascalpepe/bootstrap-quickstart.git
+   git clone https://github.com/pascalpepe/bootstrap-webpack-template.git
    ```
 
 3. Install the dependencies:
@@ -63,26 +63,38 @@ for a detailed comparison.
 
 ### jQuery and Popper
 
-All Bootstrap's JavaScript plugins depend on [jQuery](https://jquery.com).
-Dropdowns, popovers and tooltips also depend on [Popper](https://popper.js.org).
+Bootstrap 5 does not require [jQuery](https://jquery.com) anymore, but it will
+detect and use it automatically if you want to.
+See [Bootstrap's documentation](https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible)
+for more information.
 
-By default, jQuery and Popper are not included in the bundle. If you want to
-bundle one or both, remove the appropriate lines in `webpack.config.js`:
+Dropdowns, popovers and tooltips components depend on [Popper](https://popper.js.org).
+
+By default, Popper is listed as an external dependency and thus it is not
+included in the bundle. If you want to bundle it, remove the appropriate lines
+in `webpack.config.js`:
 
 ```js
 externals: {
-  jquery: 'jQuery',
-  'popper.js': 'Popper'
+  '@popperjs/core': 'Popper'
 },
 ```
 
 ## Changelog
 
-All changes in this repository are logged in the file [CHANGELOG.md](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/CHANGELOG.md).
+All changes in this repository are logged in the file [CHANGELOG.md](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/CHANGELOG.md).
+
+Overview of the major versions of this project:
+
+* 1.0 (2019-01-19): Initial release with Bootstrap 4 under the name
+  "bootstrap-quickstart". webpack wasn't used at this point.
+* 2.0 (2020-04-06): Integrated webpack.
+* 3.0 (2021-05-14): Updated to Bootstrap 5 and changed the project name
+  to "bootstrap-webpack-template".
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/LICENSE).
 
-This project redistributes open source software. See the [NOTICE](https://github.com/pascalpepe/bootstrap-quickstart/blob/main/NOTICE)
+This project redistributes open source software. See the [NOTICE](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/NOTICE)
 file for more information.
