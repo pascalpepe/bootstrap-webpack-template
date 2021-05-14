@@ -1,7 +1,6 @@
 # Bootstrap webpack template
 
-[![Bootstrap 5](https://img.shields.io/badge/bootstrap-5-563d7c.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
-[![Webpack 5](https://img.shields.io/badge/webpack-5-8dd6f9.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
+[![Bootstrap 5.0](https://img.shields.io/badge/bootstrap-5.0-563d7c.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/LICENSE)
 
 This repository provides a development environment for quickly creating
@@ -11,8 +10,8 @@ your build with just what you need.
 
 ## Quick usage guide
 
-1. Get the source code, either [by using this project as a GitHub template](https://github.com/pascalpepe/bootstrap-webpack-template/generate),
-   or by cloning this repository.
+1. [Use this project as a GitHub template](https://github.com/pascalpepe/bootstrap-webpack-template/generate).
+   Alternatively, clone or fork this repository.
 
 2. Install dependencies (make sure to [install Node.js](https://nodejs.org/en/download/package-manager/)
    first):
@@ -28,7 +27,7 @@ your build with just what you need.
    ```
 
 4. Open `index.html` in your favorite browser to view a minimal page.
-5. Start customizing and optimizing your build in `src/`.
+5. Start customizing your build in `src/`.
 
 ## Scripts
 
@@ -48,8 +47,11 @@ styles. You can select components individually in both files.
 
 The output will be saved in `dist/`.
 
-CSS files are post-processed with [PostCSS](https://postcss.org) and [Autoprefixer](https://github.com/postcss/autoprefixer),
-and linted with [stylelint](https://stylelint.io).
+SCSS files are compiled into CSS with [Dart Sass](https://sass-lang.com/dart-sass)
+and linted with [stylelint](https://stylelint.io). CSS files are post-processed
+with [PostCSS](https://postcss.org) and [Autoprefixer](https://github.com/postcss/autoprefixer)
+in order to ensure the same browser compatibility as the original Bootstrap
+build.
 
 ### Development and production modes
 
@@ -59,7 +61,7 @@ The build can be run in two modes for different optimizations. For instance:
 * In production mode: the output is optimized, either with [terser](https://terser.org/)
   for scripts or with [cssnano](https://cssnano.co/) for styles.
 
-Please refer to [webpack's documentation](https://webpack.js.org/configuration/mode/)
+See [webpack's documentation](https://webpack.js.org/configuration/mode/)
 for a detailed comparison.
 
 ### External dependencies
@@ -84,12 +86,12 @@ externals: {
 
 All changes in this repository are logged in the file [CHANGELOG.md](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/CHANGELOG.md).
 
-Overview of the major versions of this project:
+Overview of this project's history:
 
 * 1.0 (2019-01-19): Initial release with Bootstrap 4, under the name
   "bootstrap-quickstart". It did not use webpack at this point.
 * 2.0 (2020-04-06): Webpack integration.
-* 3.0 (2021-05-14): Bootstrap 5 migration. Project name changed to
+* 3.0 (2021-05-14): Bootstrap 5 update. Project name changed to
   "bootstrap-webpack-template".
 
 ## License
