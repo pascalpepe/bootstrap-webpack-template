@@ -12,17 +12,22 @@
   * css-loader: 5.2.4
   * css-minimizer-webpack-plugin: 3.0.0
   * mini-css-extract-plugin: 1.6.0
-  * node-sass: 6.0.0
   * sass-loader: 11.1.1
   * stylelint: 13.13.1
   * stylelint-config-twbs-bootstrap: 2.2.0
   * terser-webpack-plugin: 5.1.2
   * webpack: 5.37.0
   * webpack-cli: 4.7.0
+* Removed development dependencies:
+  * node-sass
+* Added development dependencies:
+  * sass: 1.32.13
 * Updated the list of external dependencies in `webpack.config.js`:
   * Removed jQuery (not required for Bootstrap 5).
   * Renamed `popper.js` as `@popperjs/core` in accordance with the new naming
     for Popper v2.
+* Updated `webpack.config.js` to use Dart Sass instead of Node Sass.
+* Updated `README`.
 
 ## 2.2 (2021-03-14)
 
@@ -45,7 +50,7 @@
   * webpack-cli: 4.5.0
 * Removed development dependencies:
   * optimize-css-assets-webpack-plugin
-* Added development dependenCustomcies:
+* Added development dependencies:
   * css-minimizer-webpack-plugin: 1.2.0
 * Renamed npm scripts:
   * `build` as `build:prod`
