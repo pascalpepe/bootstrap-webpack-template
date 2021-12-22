@@ -1,11 +1,11 @@
 /*!
- * Bootstrap v5.0.1 (https://getbootstrap.com/)
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-// Based on https://github.com/twbs/bootstrap/blob/v5.0.1/scss/bootstrap.scss
+// Based on https://github.com/twbs/bootstrap/blob/v5.1.3/scss/bootstrap.scss
 
 // Functions (required)
 @import "~bootstrap/scss/functions";
@@ -48,6 +48,7 @@
 @import "~bootstrap/scss/carousel";
 @import "~bootstrap/scss/spinners";
 @import "~bootstrap/scss/offcanvas";
+@import "~bootstrap/scss/placeholders";
 
 // Helpers (optional)
 @import "~bootstrap/scss/helpers";

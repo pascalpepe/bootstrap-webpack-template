@@ -1,5 +1,25 @@
 # Changelog
 
+## Latest
+
+* Updated dependencies:
+  * Bootstrap: 5.1.3
+  * @popperjs/core: 2.11.0
+* Updated development dependencies:
+  * autoprefixer: 10.4.0
+  * css-loader: 6.5.1
+  * css-minimizer-webpack-plugin: 3.3.1
+  * mini-css-extract-plugin: 2.4.5
+  * postcss-loader: 6.2.1
+  * sass: 1.45.1
+  * sass-loader: 12.4.0
+  * stylelint: 14.2.0
+  * stylelint-config-twbs-bootstrap: 3.0.0
+  * stylelint-webpack-plugin: 3.1.0
+  * terser-webpack-plugin: 5.3.0
+  * webpack: 5.65.0
+  * webpack-cli: 4.9.1
+
 ## 3.0 (2021-05-14)
 
 * Renamed project from "bootstrap-quickstart" to "bootstrap-webpack-template".

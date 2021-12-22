@@ -1,6 +1,6 @@
 # Bootstrap webpack template
 
-[![Bootstrap 5.0](https://img.shields.io/badge/bootstrap-5.0-563d7c.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
+[![Bootstrap 5.1](https://img.shields.io/badge/bootstrap-5.1-563d7c.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/LICENSE)
 
 This repository provides a development environment for quickly creating
@@ -68,7 +68,7 @@ for a detailed comparison.
 
 Bootstrap 5 does not require [jQuery](https://jquery.com) anymore, but it will
 detect and use it automatically if you need it.
-See [Bootstrap's documentation](https://getbootstrap.com/docs/5.0/getting-started/javascript/#still-want-to-use-jquery-its-possible)
+See [Bootstrap's documentation](https://getbootstrap.com/docs/5.1/getting-started/javascript/#still-want-to-use-jquery-its-possible)
 for more information.
 
 Dropdowns, popovers and tooltips components depend on [Popper](https://popper.js.org).
