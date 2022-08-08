@@ -1,24 +1,26 @@
 # Changelog
 
-## Latest
+## 3.1 (2022-08-08)
 
 * Updated dependencies:
-  * Bootstrap: 5.1.3
-  * @popperjs/core: 2.11.0
+  * Bootstrap: 5.2.0
+  * @popperjs/core: 2.11.5
 * Updated development dependencies:
-  * autoprefixer: 10.4.0
-  * css-loader: 6.5.1
-  * css-minimizer-webpack-plugin: 3.3.1
-  * mini-css-extract-plugin: 2.4.5
-  * postcss-loader: 6.2.1
-  * sass: 1.45.1
-  * sass-loader: 12.4.0
-  * stylelint: 14.2.0
-  * stylelint-config-twbs-bootstrap: 3.0.0
-  * stylelint-webpack-plugin: 3.1.0
-  * terser-webpack-plugin: 5.3.0
-  * webpack: 5.65.0
-  * webpack-cli: 4.9.1
+  * autoprefixer: 10.4.8
+  * css-loader: 6.7.1
+  * css-minimizer-webpack-plugin: 4.0.0
+  * mini-css-extract-plugin: 2.6.1
+  * postcss-loader: 7.0.1
+  * sass: 1.54.3
+  * sass-loader: 13.0.2
+  * stylelint: 14.9.1
+  * stylelint-config-twbs-bootstrap: 5.0.0
+  * stylelint-webpack-plugin: 3.3.0
+  * terser-webpack-plugin: 5.3.3
+  * webpack: 5.74.0
+  * webpack-cli: 4.10.0
+* Updated `index.html`.
+* Updated `README`, `NOTICE` and `LICENSE` files.
 
 ## 3.0 (2021-05-14)
 

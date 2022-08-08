@@ -1,6 +1,6 @@
 # Bootstrap webpack template
 
-[![Bootstrap 5.1](https://img.shields.io/badge/bootstrap-5.1-563d7c.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
+[![Bootstrap 5.2](https://img.shields.io/badge/bootstrap-5.2-563d7c.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/package.json)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/pascalpepe/bootstrap-webpack-template/blob/main/LICENSE)
 
 This repository provides a development environment for quickly creating
