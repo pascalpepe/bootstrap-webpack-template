@@ -13,7 +13,7 @@ your build with just what you need.
 1. [Use this project as a GitHub template](https://github.com/pascalpepe/bootstrap-webpack-template/generate).
    Alternatively, clone or fork this repository.
 
-2. Install dependencies (make sure to [install Node.js](https://nodejs.org/en/download/package-manager/)
+2. Install dependencies (make sure to [install Node.js](https://nodejs.org/en/download/)
    first):
 
    ```text
@@ -55,11 +55,9 @@ build.
 
 ### Development and production modes
 
-The build can be run in two modes for different optimizations. For instance:
-
-* In development mode: the output is not minimized.
-* In production mode: the output is optimized, either with [terser](https://terser.org/)
-  for scripts or with [cssnano](https://cssnano.co/) for styles.
+The build can be run in two modes for different optimizations: development and
+production. In production mode, the output is optimized with [terser](https://terser.org/)
+for scripts and [cssnano](https://cssnano.co/) for styles.
 
 See [webpack's documentation](https://webpack.js.org/configuration/mode/)
 for a detailed comparison.
